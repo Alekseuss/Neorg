@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+body,
+html {
+    height: 100%;
+    line-height: 1;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    transition: all .3s ease;
+    animation: showing .4s ease-in;
+}
+
+@keyframes showing {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+a {
+    text-decoration: none;
+}
+
+::before,
+::after {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+    background-color: #fee9ce;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    padding: 1rem 2rem;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    border: 3px solid black;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+#first_child {
+    margin-top: 87px;
+}
+
+main {
+    border-bottom: 3px solid black;
+    border-right: 3px solid black;
+    border-left: 3px solid black;
+    background-color: #fee9ce;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    padding: 1rem;
+    flex: 1 1 auto;
+}
+
+.main_title {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    line-height: 120%;
+    font-size: 80px;
+}
+
+.author {
+    padding: 1rem;
+    border-radius: 2px;
+    border: 3px solid black;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    font-weight: 500;
+    margin-right: 3.3rem;
+}
+
+.wit {
+    margin-top: -40px;
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 5px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 3px solid black;
+    padding: 1rem;
+    color: white;
+}
+
+#mc_2 {
+    background-color: #814cfb;
+    color: white;
+}
+
+#mc_3 {
+    background-color: #fdd80a;
+}
+
+#mc_4 {
+    background-color: #fd4a37;
+    color: white;
+}
+
+#mc_5 {
+    background-color: #fee9ce;
+}
+
+.main_content {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.definition {
+    font-weight: 400;
+    font-size: 18px;
+    max-width: 70%;
+    line-height: 160%;
+}
+
+.heavy {
+    font-weight: 600;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+body::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+body::-webkit-scrollbar-thumb:active {
+    background-color: black;
+}
+
+body::-webkit-scrollbar-track {
+    border-top: 3px solid black;
+    background-color: white;
+}
+
+body::-webkit-scrollbar {
+    width: 6px;
+}
+
+.secondary_title {
+    font-weight: 700;
+    font-size: 48px;
+    margin: 20px 0 30px 0;
+}
+
+.definitions {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-left: 4px;
+}
+
+.header_menu {
+    width: fit-content;
+}
+
+.header_item {
+    font-weight: 800;
+    font-size: 24px;
+    color: #000;
+    transition: all .3s ease;
+}
+
+.header_item:hover {
+    color: #4001ff;
+}
+
+#title_2 {
+    margin-top: 50px;
+}
+
+.example_pic {
+    width: 60%;
+    height: 60%;
+}
+
+.example_pic2 {
+    width: 40%;
+    height: 40%;
+}
+
+.header_list {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer {
+    padding: 1rem;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #814cfb;
+    color: white;
+    font-size: 24px;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+}
